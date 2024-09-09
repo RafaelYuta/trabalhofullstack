@@ -1,0 +1,55 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.caixa {
+    background-color: #d4a373; /* Cor marrom suave para a caixa */
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    margin: 50px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #3e2723; /* Marrom escuro para o título */
+    text-align: center;
+    margin-top: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    color: #3e2723; /* Marrom escuro para os rótulos */
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    border: 1px solid #a1887f; /* Bordas marrons */
+    border-radius: 4px;
+    padding: 8px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #8d6e63; /* Cor marrom para o botão */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #6d4c41; /* Marrom mais escuro para hover */
+}
